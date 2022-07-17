@@ -1,5 +1,16 @@
 title: "R/S"
+author:
+  name: Dan Fox
+permalink: /:year/:title
 show_downloads: false
-theme: jekyll-theme-minimal
+#theme: minima
+remote_theme: jekyll/minima
 github:
   is_user_page: false
+  is_project_page: false
+minima:
+  skin: solarized-dark
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-sitemap
